@@ -1,5 +1,26 @@
-node_modules/
-.next/
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
 dist/
 build/
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (legacy build artifacts)
+node_modules/
+.next/
 *.log
